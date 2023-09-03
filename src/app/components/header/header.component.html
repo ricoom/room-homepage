@@ -1,12 +1,16 @@
 <header>
     <nav>
+       <i id="open"*ngIf="!open" (click)="open=!open"><img src="../assets/images/icon-hamburger.svg" alt=""></i>
+       <i id="open"*ngIf="open" (click)="open=!open"><img src="../assets/images/icon-close.svg" alt=""></i>
+
         <div class="logo">room</div>
-        <ul>
+        <ul *ngIf="open">
             <li><a href="">Home</a></li>
             <li><a href="">Shop</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Contact</a></li>
         </ul>
+        
     </nav>
     <div class="heroe">
     <img [src]="curData.url" alt="">

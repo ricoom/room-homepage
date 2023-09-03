@@ -7,7 +7,7 @@ import { Datadao } from 'src/app/models/datadao';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
+open:boolean=true;
   k:any=0
  curData:Datadao= new Datadao('../assets/images/desktop-image-hero-1.jpg',
  ' Discover innovative ways to decorate',

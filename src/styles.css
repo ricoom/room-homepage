@@ -39,9 +39,5 @@ display: flex;
     header{
         display: block;
     }
-    
-    nav ul li {
-    display: none;
-    }
-   
+ 
 }
