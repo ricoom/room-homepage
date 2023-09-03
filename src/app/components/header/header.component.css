@@ -1,0 +1,66 @@
+nav {
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    margin: 20px;
+    align-items: center;
+    
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    
+}
+.heroe img{
+    width: 100%;
+}
+.logo{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2em;
+
+}
+.info{position: relative;}
+.info h2{
+    font-size: 2.9em;
+    margin-bottom: 10px;
+}
+.info p{
+    font-size: 1.1em;
+    margin-bottom: 40PX;
+    line-height: 1.1em;
+    color:hsl(0, 0%, 63%) ;
+
+
+}
+.cta{
+    letter-spacing: 10px;
+}
+
+.btns{
+    position: absolute;
+    left: 7px;
+    bottom: 2px;
+
+}
+.swipe{
+    border: none;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    cursor: pointer;
+
+}
+.swipe:hover{
+    background-color: hsl(0, 0%, 27%);
+}
+button img{
+    width: 80%;
+}
+@media only screen and (max-width:375) {
+ 
+}

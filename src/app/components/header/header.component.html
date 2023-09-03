@@ -1,0 +1,25 @@
+<header>
+    <nav>
+        <div class="logo">room</div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="heroe">
+    <img [src]="curData.url" alt="">
+
+    </div>
+
+    <div class="info">
+        <h2>  {{curData.title}}</h2>
+        <p> {{curData.content}}</p>
+       <div class="cta">SHOP NOW <i><img src="../assets/images/icon-arrow.svg" alt=""></i></div>
+       <div class="btns">
+        <button class="swipe" (click)="reverseContent()"><i><img src="../assets/images/icon-angle-left.svg" alt=""></i></button><button class="swipe"  (click)="getContent()"><i><img src="../assets/images/icon-angle-right.svg" alt=""></i></button>
+       </div>
+      </div>
+</header>
+   

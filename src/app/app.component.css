@@ -1,0 +1,51 @@
+/* app-header{
+    background-image: url(../assets/images/desktop-image-hero-1.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card:nth-child(1){
+    background-image: url(../assets/images/image-about-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-basis: 30%;
+   
+
+
+}
+.card:nth-child(2){
+    flex-basis: 40%;
+    height: 200px;
+    padding: 30px;
+
+
+}
+.card:nth-child(3){
+    background-image: url(../assets/images/image-about-light.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-basis: 30%;
+   
+
+
+
+}
+h2{
+    font-size: 1.3em;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 1.1em;
+    line-height: 1.4em;
+    color:hsl(0, 0%, 63%) ;
+
+}
+

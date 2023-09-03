@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    Font-size: 12px;
+
+}
+body{
+padding: 3% 5% 5% 5%;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+   flex-basis: 40%;
+   
+
+
+}
+.info{
+    flex-basis: 50%;
+    padding: 100px 100px 100px 90px;
+
+}
+header{
+display: flex;
+}
+
+@media only screen and (max-width:375) {
+   nav ul{
+    display: none;
+   }
+    header{
+        display: block;
+    }
+    main{
+        display: block;
+    }
+}
