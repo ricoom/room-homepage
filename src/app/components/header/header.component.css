@@ -61,6 +61,13 @@ nav ul li a{
 button img{
     width: 80%;
 }
-@media only screen and (max-width:375) {
- 
+
+@media only screen and (max-width:375px) {
+    .btns{
+        display: none;
+    }
+    .info{
+        padding: 10% 0% 0% 0%;
+        margin-bottom: 20px;
+    }
 }

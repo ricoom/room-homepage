@@ -34,14 +34,14 @@ header{
 display: flex;
 }
 
-@media only screen and (max-width:375) {
-   nav ul{
-    display: none;
-   }
+@media only screen and (max-width:375px) {
+   
     header{
         display: block;
     }
-    main{
-        display: block;
+    
+    nav ul li {
+    display: none;
     }
+   
 }
